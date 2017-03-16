@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pyramid Slide</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="pyramid-slide.js"></script>
+</head>
+
+<body>
+
+    <h1>Welcome to Pyramid Slide!</h1>
+    <br>
+    <p>Brick type?</p>
+    <select onchange ="drawPyramid()" id="brickType" name="bricks">
+        <option value="#">#</option>
+        <option value="@">@</option>
+        <option value="H">H</option>
+        <option value="X">X</option>
+    </select>
+
+
+    <p>How high?</p>
+
+	<input type="range" id="slide" value="10" min="0" max="20" oninput="drawPyramid(this.value)" 
+            onchange="pyramidHeight.value = slide.value" >
+
+    <output id="pyramidHeight">10</output>
+
+    <br>
+
+    <div id="pyramid"></div>
+
+
+</body>
+</html>
