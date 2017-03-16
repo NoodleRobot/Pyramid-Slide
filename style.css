@@ -1,10 +1,25 @@
 #pyramid {
-            line-height: 0;
-            font-size: 30px;
+    line-height: 0;
+    font-size: 25px;
+    background-color: #AFEEEE;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 3px;
+    font-weight: bold;
         }
 
 
 body {
-            font-family: "Lucida", monospace;
-            text-align: center;
-        }
+    background-color: #FFDEAD	;
+    font-family: "Lucida", monospace;
+    text-align: center;
+   
+    }
+
+h1 {
+    background-color: #AFEEEE;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 3px;
+    padding: 10px;
+}
